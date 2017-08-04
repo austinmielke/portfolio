@@ -1,6 +1,36 @@
 body {
   font-family: "Roboto", "Helvetica", sans-serif; }
 
+nav {
+  background: #222;
+  box-shadow: 0 1px 20px 1px rgba(34, 34, 34, 0.8); }
+  nav .container .navbar {
+    margin: 0; }
+    nav .container .navbar li {
+      margin: 0;
+      display: block;
+      text-align: center;
+      padding: 1rem; }
+      nav .container .navbar li a {
+        padding: 1rem;
+        font-size: 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        transition: all 0.75s ease; }
+        nav .container .navbar li a:hover {
+          color: #EA3F46; }
+
+@media (min-width: 600px) {
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; }
+
+  .navbar {
+    display: flex;
+    justify-content: flex-end; } }
 .btn {
   display: inline-block;
   padding: 1rem 1.5rem;
@@ -15,7 +45,7 @@ body {
     background: rgba(34, 34, 34, 0.7); }
 
 #hero {
-  background-color: #555;
+  background-color: #444;
   background: url("../img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,8 +64,11 @@ body {
   #hero .container p {
     color: #fff; }
 
+@media (min-width: 600px) {
+  #hero {
+    margin-top: 5rem; } }
 #portfolio {
-  background: #555; }
+  background: #444; }
   #portfolio .container h3 {
     margin-top: 5.25rem;
     text-align: center;
@@ -69,7 +102,7 @@ body {
       font-size: 2rem; }
 
 #contact {
-  background: #555; }
+  background: #444; }
   #contact .container .content {
     margin: 5.25rem 0; }
     #contact .container .content h3 {

@@ -24,11 +24,11 @@ body {
     border-radius: 0;
     background: rgba(34, 34, 34, 0.3);
     color: #fff;
-    border: #EA3F46 1px solid; }
+    border: #EA3F46 1px solid;
+    transition: all 0.75s ease; }
     #hero .container button:hover {
       background: rgba(34, 34, 34, 0.7);
-      color: #EA3F46;
-      border: #fff 1px solid; }
+      color: #EA3F46; }
 
 #portfolio {
   background: #555; }
@@ -42,6 +42,7 @@ body {
   #portfolio .container .thumbnail {
     border-left: #EA3F46 5px solid; }
   #portfolio .container h5 {
+    font-weight: bold;
     padding-bottom: 2rem;
     color: #222;
     border-bottom: #EA3F46 5px solid; }
@@ -51,10 +52,25 @@ body {
     border-radius: 0;
     background: rgba(34, 34, 34, 0.3);
     color: #fff;
-    border: #EA3F46 1px solid; }
+    border: #EA3F46 1px solid;
+    transition: all 0.75s ease; }
     #portfolio .container button:hover {
       background: rgba(34, 34, 34, 0.7);
-      color: #EA3F46;
-      border: #fff 1px solid; }
+      color: #EA3F46; }
+
+#about {
+  background: #999; }
+  #about .container .content {
+    margin: 5.25rem 0; }
+    #about .container .content img {
+      border-left: #EA3F46 5px solid; }
+    #about .container .content h3 {
+      margin-top: 5.25rem;
+      padding-bottom: 2rem;
+      color: #222;
+      font-weight: bold;
+      border-bottom: #EA3F46 5px solid; }
+    #about .container .content p {
+      font-size: 2rem; }
 
 /*# sourceMappingURL=style.css.map */

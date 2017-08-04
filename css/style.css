@@ -83,4 +83,22 @@ body {
     #contact .container .content img {
       border-right: #EA3F46 5px solid; }
 
+#footer {
+  background: #222; }
+  #footer .container .nav {
+    color: #EA3F46;
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 2rem; }
+    #footer .container .nav a {
+      text-decoration: none;
+      color: #fff;
+      transition: all 0.75s ease; }
+      #footer .container .nav a:hover {
+        color: #EA3F46; }
+  #footer .container .copy {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem; }
+
 /*# sourceMappingURL=style.css.map */
